@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Para Richard — ¡Feliz Cumpleaños! 🏴‍☠️</title>
+  <link rel="stylesheet" href="onepiece.css">
+</head>
+
+<body>
+
+  <!-- Stars (JS) -->
+  <div class="stars" id="star-layer"></div>
+
+  <!-- §1 HERO -->
+  <section class="section" id="s1">
+    <div class="hero-inner" id="hero-inner">
+      <div class="emblem">
+        <div class="ring"></div>
+        <div class="ring"></div>
+        <div class="ring"></div>
+        <span class="skull-ico">☠️</span>
+      </div>
+      <div id="hero-copy">
+        <p class="eyebrow">— Un regalo muy especial para ti —</p>
+        <h1 class="hero-title">Para desbloquear<br>tu regalo</h1>
+        <p class="hero-sub">El Grand Line guarda un mensaje. ¿Eres el destinatario?</p>
+      </div>
+      <div class="parchment" id="parchment">
+        <p>El Poneglyph dice: "El tesoro pertenece al verdadero pirata. ¿Cuál es tu nombre, navegante?"</p>
+      </div>
+      <div class="input-wrap" id="input-wrap">
+        <input class="hero-input" id="h-inp" type="text" placeholder="— tu nombre en MAYUSCULA —" maxlength="30"
+          autocomplete="off">
+        <span class="i-line"></span>
+      </div>
+      <button class="cta" id="h-btn">Abrir el pergamino</button>
+      <p class="err" id="h-err"></p>
+      <div class="ok-block" id="h-ok">
+        <div class="ok-ring">✓</div>
+        <p class="ok-txt" id="h-ok-txt">¡Lo lograste! El viaje comienza…</p>
+      </div>
+    </div>
+    <div class="scue" id="scue">
+      <span class="scue-lbl">Descubre</span>
+      <div class="scue-bar"></div>
+    </div>
+  </section>
+
+  <div class="rule">
+    <div class="rl"></div><span class="ri">⚓ ☠ ⚓</span>
+    <div class="rl"></div>
+  </div>
+
+  <!-- §2 INTRO -->
+  <section class="section gate" id="s2">
+    <div class="veil">
+      <div class="vt"></div>
+      <div class="vb"></div>
+    </div>
+    <p class="eyebrow">— El comienzo del viaje —</p>
+    <div class="ship-wrap">
+      <svg width="260" height="200" viewBox="0 0 260 190" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="hG" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#3a1e08" />
+            <stop offset="100%" stop-color="#1a0e04" />
+          </linearGradient>
+          <linearGradient id="sR" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="rgba(192,57,43,.55)" />
+            <stop offset="100%" stop-color="rgba(140,25,15,.2)" />
+          </linearGradient>
+          <linearGradient id="sY" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="rgba(232,184,75,.55)" />
+            <stop offset="100%" stop-color="rgba(180,140,50,.2)" />
+          </linearGradient>
+        </defs>
+        <ellipse cx="130" cy="175" rx="95" ry="9" fill="rgba(232,184,75,.12)" />
+        <path d="M26 128 Q34 163 130 168 Q226 163 234 128 L220 113 L40 113 Z" fill="url(#hG)"
+          stroke="rgba(232,184,75,.35)" stroke-width="1.5" />
+        <path d="M40 113 L220 113 L210 130 L50 130 Z" fill="rgba(80,45,15,.6)" />
+        <path d="M50 132 Q95 139 130 137 Q165 135 210 132" stroke="rgba(232,184,75,.22)" stroke-width="1.2"
+          fill="none" />
+        <line x1="130" y1="20" x2="130" y2="113" stroke="rgba(232,184,75,.55)" stroke-width="4" />
+        <line x1="72" y1="64" x2="188" y2="64" stroke="rgba(232,184,75,.38)" stroke-width="2.5" />
+        <path d="M131 23 L186 64 L131 98 Z" fill="url(#sY)" stroke="rgba(232,184,75,.3)" stroke-width="1" />
+        <path d="M129 23 L74 64 L129 98 Z" fill="url(#sR)" stroke="rgba(192,57,43,.3)" stroke-width="1" />
+        <text x="130" y="74" text-anchor="middle" font-size="16" fill="rgba(240,236,228,.6)">☠</text>
+        <rect x="127" y="5" width="26" height="16" rx="1.5" fill="rgba(192,57,43,.5)" stroke="rgba(232,184,75,.38)"
+          stroke-width="1.2" />
+        <text x="140" y="17" text-anchor="middle" font-size="9" fill="rgba(240,236,228,.7)">☠</text>
+        <path d="M130 23 Q162 44 186 64" stroke="rgba(232,184,75,.2)" stroke-width="1.2" fill="none" />
+        <path d="M130 23 Q98 44 74 64" stroke="rgba(232,184,75,.2)" stroke-width="1.2" fill="none" />
+        <circle cx="78" cy="126" r="6.5" fill="rgba(15,48,96,.8)" stroke="rgba(232,184,75,.4)" stroke-width="1.5" />
+        <circle cx="130" cy="126" r="6.5" fill="rgba(15,48,96,.8)" stroke="rgba(232,184,75,.4)" stroke-width="1.5" />
+        <circle cx="182" cy="126" r="6.5" fill="rgba(15,48,96,.8)" stroke="rgba(232,184,75,.4)" stroke-width="1.5" />
+        <circle cx="78" cy="126" r="3" fill="rgba(232,184,75,.25)" />
+        <circle cx="130" cy="126" r="3" fill="rgba(232,184,75,.25)" />
+        <circle cx="182" cy="126" r="3" fill="rgba(232,184,75,.25)" />
+      </svg>
+    </div>
+    <p class="intro-txt" id="intro-txt">He construido este rincón solo para ti. Un viaje a través de los recuerdos que
+      guardé con cuidado. <strong>¡Prepárate, pirata!</strong></p>
+    <div class="pills">
+      <span class="pill">Pirata</span><span class="pill">Navegante</span>
+      <span class="pill">Tesoro</span><span class="pill">Nakama</span><span class="pill">Grand Line</span>
+    </div>
+  </section>
+
+  <div class="rule">
+    <div class="rl"></div><span class="ri">🗺️ ☠ 🗺️</span>
+    <div class="rl"></div>
+  </div>
+
+  <!-- §3 GALLERY -->
+  <section class="section gate" id="s3">
+    <div class="veil">
+      <div class="vt"></div>
+      <div class="vb"></div>
+    </div>
+    <div class="gallery-hd">
+      <p class="eyebrow">— Los recuerdos del viaje —</p>
+      <h2 class="t-display">Cada isla, <span class="gold it">una historia.</span></h2>
+    </div>
+    <div class="memories">
+
+      <!-- RECUERDO 1 — La primera llamada -->
+      <div class="mem" id="m1">
+        <div class="mem-frame mem-frame--svg">
+          <div class="mem-grade"></div>
+          <svg class="mem-svg" viewBox="0 0 160 120" xmlns="http://www.w3.org/2000/svg">
+            <!-- Noche estrellada -->
+            <rect width="160" height="120" fill="#03070f" />
+            <circle cx="20" cy="15" r="1" fill="rgba(255,255,255,.8)" />
+            <circle cx="50" cy="8" r=".8" fill="rgba(255,255,255,.6)" />
+            <circle cx="80" cy="12" r="1.2" fill="rgba(255,255,255,.9)" />
+            <circle cx="110" cy="7" r=".7" fill="rgba(255,255,255,.7)" />
+            <circle cx="140" cy="18" r="1" fill="rgba(255,255,255,.8)" />
+            <circle cx="130" cy="5" r=".6" fill="rgba(255,255,255,.5)" />
+            <circle cx="35" cy="30" r=".5" fill="rgba(255,255,255,.4)" />
+            <circle cx="155" cy="28" r=".8" fill="rgba(255,255,255,.6)" />
+            <!-- Luna -->
+            <circle cx="130" cy="25" r="12" fill="rgba(232,184,75,.15)" />
+            <circle cx="130" cy="25" r="9" fill="rgba(232,184,75,.25)" />
+            <circle cx="130" cy="25" r="6" fill="rgba(232,184,75,.5)" />
+            <!-- Ola del mar (fondo) -->
+            <path d="M0 85 Q40 75 80 85 Q120 95 160 85 L160 120 L0 120 Z" fill="rgba(11,30,58,.9)" />
+            <path d="M0 90 Q40 82 80 90 Q120 98 160 90" stroke="rgba(26,90,140,.4)" stroke-width="1.5" fill="none" />
+            <!-- Silueta persona con teléfono -->
+            <ellipse cx="55" cy="115" rx="18" ry="4" fill="rgba(0,0,0,.4)" />
+            <circle cx="55" cy="88" r="10" fill="rgba(30,60,100,.9)" stroke="rgba(232,184,75,.3)" stroke-width=".8" />
+            <rect x="45" y="98" width="20" height="22" rx="4" fill="rgba(30,60,100,.9)" stroke="rgba(232,184,75,.3)"
+              stroke-width=".8" />
+            <!-- Teléfono -->
+            <rect x="60" y="87" width="10" height="16" rx="2" fill="rgba(40,40,60,.95)" stroke="rgba(232,184,75,.5)"
+              stroke-width=".8" />
+            <rect x="61" y="89" width="8" height="10" rx="1" fill="rgba(232,184,75,.2)" />
+            <!-- Señal de llamada -->
+            <path d="M73 88 Q78 86 78 91 Q78 96 73 94" stroke="rgba(232,184,75,.6)" stroke-width="1.2" fill="none" />
+            <path d="M75 85 Q83 83 83 91 Q83 99 75 97" stroke="rgba(232,184,75,.35)" stroke-width="1" fill="none" />
+            <!-- Burbujas de chat -->
+            <rect x="85" y="60" width="55" height="18" rx="9" fill="rgba(232,184,75,.15)" stroke="rgba(232,184,75,.3)"
+              stroke-width=".8" />
+            <text x="112" y="73" text-anchor="middle" font-size="7" fill="rgba(240,236,228,.7)">¡Hola, pirata!
+              🏴‍☠️</text>
+            <rect x="20" y="44" width="50" height="14" rx="7" fill="rgba(26,90,140,.4)" stroke="rgba(26,90,140,.6)"
+              stroke-width=".8" />
+            <text x="45" y="54" text-anchor="middle" font-size="6.5" fill="rgba(240,236,228,.6)">¿Aló? ¿Quién
+              eres?</text>
+          </svg>
+          <div class="mem-bar-t"></div>
+          <div class="mem-bar-b"></div>
+        </div>
+        <p class="mem-num">01 — El Primer Den Den Mushi</p>
+        <h3 class="mem-title">La Llamada que Cambió el Rumbo</h3>
+        <p class="mem-body">Así como el Log Pose marca una nueva isla, esa primera llamada marcó el inicio de algo
+          especial. Dos piratas que aún no sabían que iban a navegar juntos — pero el destino ya lo tenía escrito
+          en las estrellas.</p>
+      </div>
+
+      <!-- RECUERDO 2 — Fútbol -->
+      <div class="mem" id="m2">
+        <div class="mem-frame mem-frame--svg">
+          <div class="mem-grade"></div>
+          <svg class="mem-svg" viewBox="0 0 160 120" xmlns="http://www.w3.org/2000/svg">
+            <!-- Cielo atardecer -->
+            <defs>
+              <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#1a0e04" />
+                <stop offset="60%" stop-color="#7a3a12" />
+                <stop offset="100%" stop-color="#2a1505" />
+              </linearGradient>
+            </defs>
+            <rect width="160" height="120" fill="url(#sky2)" />
+            <!-- Sol poniente -->
+            <circle cx="80" cy="55" r="22" fill="rgba(232,184,75,.18)" />
+            <circle cx="80" cy="55" r="15" fill="rgba(232,184,75,.3)" />
+            <circle cx="80" cy="55" r="9" fill="rgba(232,184,75,.7)" />
+            <!-- Campo de fútbol -->
+            <rect x="0" y="80" width="160" height="40" fill="rgba(15,60,25,.95)" />
+            <ellipse cx="80" cy="80" rx="30" ry="8" fill="none" stroke="rgba(255,255,255,.18)" stroke-width="1" />
+            <line x1="80" y1="72" x2="80" y2="120" stroke="rgba(255,255,255,.12)" stroke-width=".8" />
+            <!-- Silueta jugador corriendo con pelota -->
+            <ellipse cx="75" cy="118" rx="10" ry="3" fill="rgba(0,0,0,.35)" />
+            <circle cx="75" cy="90" r="7" fill="rgba(192,57,43,.85)" stroke="rgba(232,184,75,.3)" stroke-width=".8" />
+            <rect x="68" y="97" width="14" height="16" rx="3" fill="rgba(192,57,43,.85)" stroke="rgba(232,184,75,.3)"
+              stroke-width=".8" />
+            <!-- Pierna pateando -->
+            <line x1="75" y1="113" x2="68" y2="120" stroke="rgba(192,57,43,.9)" stroke-width="3"
+              stroke-linecap="round" />
+            <line x1="75" y1="113" x2="83" y2="117" stroke="rgba(192,57,43,.9)" stroke-width="3"
+              stroke-linecap="round" />
+            <!-- Pelota -->
+            <circle cx="90" cy="112" r="6" fill="white" stroke="rgba(0,0,0,.5)" stroke-width=".8" />
+            <path d="M87 109 L90 107 L93 109 L93 113 L90 115 L87 113 Z" fill="rgba(0,0,0,.3)" />
+            <!-- Silueta observadora (cliente) -->
+            <ellipse cx="125" cy="118" rx="8" ry="2.5" fill="rgba(0,0,0,.3)" />
+            <circle cx="125" cy="93" r="6" fill="rgba(30,60,100,.85)" stroke="rgba(232,184,75,.3)" stroke-width=".8" />
+            <rect x="119" y="99" width="12" height="14" rx="3" fill="rgba(30,60,100,.85)" stroke="rgba(232,184,75,.3)"
+              stroke-width=".8" />
+            <!-- Corazoncito flotando sobre la observadora -->
+            <text x="122" y="83" font-size="9" fill="rgba(232,184,75,.8)">✦</text>
+            <text x="133" y="79" font-size="7" fill="rgba(192,57,43,.7)">♥</text>
+          </svg>
+          <div class="mem-bar-t"></div>
+          <div class="mem-bar-b"></div>
+        </div>
+        <p class="mem-num">02 — La Batalla en el Campo</p>
+        <h3 class="mem-title">El Pirata que Jugaba Bonito</h3>
+        <p class="mem-body">Había algo en ese campo de fútbol — verlo correr, luchar por cada balón, dar todo sin
+          rendirse — que era puro Luffy. Un nakama que no sabe hacer las cosas a medias. Y desde las orillas
+          del campo, ese espectáculo se guardó en el corazón sin permiso.</p>
+      </div>
+
+      <!-- RECUERDO 3 — Ver pelis -->
+      <div class="mem" id="m3">
+        <div class="mem-frame mem-frame--svg">
+          <div class="mem-grade"></div>
+          <svg class="mem-svg" viewBox="0 0 160 120" xmlns="http://www.w3.org/2000/svg">
+            <!-- Habitación oscura -->
+            <rect width="160" height="120" fill="#030810" />
+            <!-- Luz de pantalla -->
+            <defs>
+              <radialGradient id="screenGlow" cx="50%" cy="40%" r="55%">
+                <stop offset="0%" stop-color="rgba(100,140,220,.35)" />
+                <stop offset="100%" stop-color="rgba(3,8,16,0)" />
+              </radialGradient>
+            </defs>
+            <rect width="160" height="120" fill="url(#screenGlow)" />
+            <!-- Pantalla TV/laptop -->
+            <rect x="30" y="18" width="100" height="62" rx="4" fill="rgba(20,40,80,.9)" stroke="rgba(232,184,75,.2)"
+              stroke-width="1" />
+            <rect x="33" y="21" width="94" height="56" rx="2" fill="rgba(15,30,70,.95)" />
+            <!-- Contenido en pantalla (barco pirata simplificado) -->
+            <rect x="33" y="21" width="94" height="56" rx="2" fill="rgba(8,20,50,.9)" />
+            <circle cx="80" cy="44" r="18" fill="rgba(232,184,75,.08)" />
+            <path d="M70 52 Q80 38 90 52" fill="rgba(232,184,75,.2)" stroke="rgba(232,184,75,.4)" stroke-width="1" />
+            <line x1="80" y1="34" x2="80" y2="52" stroke="rgba(232,184,75,.5)" stroke-width="1.5" />
+            <text x="80" y="68" text-anchor="middle" font-size="6" fill="rgba(232,184,75,.4)" letter-spacing="1">☠ ONE
+              PIECE ☠</text>
+            <!-- Base TV -->
+            <rect x="72" y="80" width="16" height="4" rx="1" fill="rgba(40,50,70,.8)" />
+            <rect x="65" y="84" width="30" height="3" rx="1" fill="rgba(40,50,70,.8)" />
+            <!-- Dos siluetas viendo la pantalla -->
+            <ellipse cx="52" cy="118" rx="14" ry="3.5" fill="rgba(0,0,0,.4)" />
+            <ellipse cx="108" cy="118" rx="14" ry="3.5" fill="rgba(0,0,0,.4)" />
+            <!-- Silueta izquierda -->
+            <circle cx="52" cy="97" r="8" fill="rgba(192,57,43,.7)" stroke="rgba(232,184,75,.2)" stroke-width=".8" />
+            <rect x="44" y="105" width="16" height="16" rx="4" fill="rgba(192,57,43,.7)" stroke="rgba(232,184,75,.2)"
+              stroke-width=".8" />
+            <!-- Silueta derecha -->
+            <circle cx="108" cy="97" r="8" fill="rgba(30,60,100,.8)" stroke="rgba(232,184,75,.2)" stroke-width=".8" />
+            <rect x="100" y="105" width="16" height="16" rx="4" fill="rgba(30,60,100,.8)" stroke="rgba(232,184,75,.2)"
+              stroke-width=".8" />
+            <!-- Palomitas entre los dos -->
+            <rect x="76" y="103" width="8" height="10" rx="1" fill="rgba(232,184,75,.3)" stroke="rgba(232,184,75,.5)"
+              stroke-width=".8" />
+            <circle cx="78" cy="101" r="2" fill="rgba(255,255,255,.6)" />
+            <circle cx="80" cy="100" r="2" fill="rgba(255,255,255,.6)" />
+            <circle cx="82" cy="101" r="2" fill="rgba(255,255,255,.6)" />
+            <!-- Estrellas techo -->
+            <circle cx="10" cy="10" r=".6" fill="rgba(255,255,255,.4)" />
+            <circle cx="145" cy="8" r=".5" fill="rgba(255,255,255,.4)" />
+            <circle cx="155" cy="20" r=".6" fill="rgba(255,255,255,.3)" />
+          </svg>
+          <div class="mem-bar-t"></div>
+          <div class="mem-bar-b"></div>
+        </div>
+        <p class="mem-num">03 — La Guardia de las Pelis</p>
+        <h3 class="mem-title">Nakamas en la Pantalla</h3>
+        <p class="mem-body">Como Luffy y su tripulación descansando en el barco después de una gran batalla — ver
+          pelis juntos es ese momento de calma donde no hacen falta palabras. Solo estar ahí, compartiendo
+          el mismo horizonte, ya es suficiente tesoro.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="rule">
+    <div class="rl"></div><span class="ri">⭐ ☠ ⭐</span>
+    <div class="rl"></div>
+  </div>
+
+  <!-- §4 PUZZLE -->
+  <section class="section gate" id="s4">
+    <div class="veil">
+      <div class="vt"></div>
+      <div class="vb"></div>
+    </div>
+    <div class="sec-hd">
+      <p class="eyebrow">— Por dentro y por fuera —</p>
+      <h2 class="t-display">Un tributo a ti</h2>
+      <p class="t-body mt8">Haz clic en cada pieza del mapa del tesoro</p>
+    </div>
+    <div class="puzzle-wrap">
+      <div class="puzzle-grid" id="puzzle-g"></div>
+    </div>
+  </section>
+
+  <div class="rule">
+    <div class="rl"></div><span class="ri">💎 ☠ 💎</span>
+    <div class="rl"></div>
+  </div>
+
+  <!-- §5 FLIP CARDS -->
+  <section class="section gate" id="s5">
+    <div class="veil">
+      <div class="vt"></div>
+      <div class="vb"></div>
+    </div>
+    <div class="sec-hd">
+      <p class="eyebrow">— Lo que la tripulación piensa —</p>
+      <h2 class="t-display">Descubre los mensajes</h2>
+    </div>
+    <p class="f-ctr" id="f-cnt">0 / 4 reveladas</p>
+    <div class="flip-grid" id="flip-g"></div>
+  </section>
+
+  <div class="rule">
+    <div class="rl"></div><span class="ri">🔍 ☠ 🔍</span>
+    <div class="rl"></div>
+  </div>
+
+  <!-- §6 WORD SEARCH -->
+  <section class="section gate" id="s6">
+    <div class="veil">
+      <div class="vt"></div>
+      <div class="vb"></div>
+    </div>
+    <div class="sec-hd">
+      <p class="eyebrow">— El juego final —</p>
+      <h2 class="t-display">Descúbrete</h2>
+      <p class="t-body mt6">Encuentra las palabras que te definen</p>
+    </div>
+    <div class="chips" id="chips"></div>
+    <div class="ws-shell">
+      <div class="ws-g" id="ws-g"></div>
+    </div>
+    <p class="ws-fb" id="ws-fb"></p>
+    <p class="ws-done" id="ws-done">¡Encontraste todo! Eres increíble, Richard. ✦</p>
+  </section>
+
+  <div class="rule">
+    <div class="rl"></div><span class="ri">🎁 ☠ 🎁</span>
+    <div class="rl"></div>
+  </div>
+
+  <!-- §7 SCRATCH -->
+  <section class="section gate" id="s7">
+    <div class="veil">
+      <div class="vt"></div>
+      <div class="vb"></div>
+    </div>
+    <div class="sec-hd">
+      <p class="eyebrow">— Y por último —</p>
+      <h2 class="t-display">Un bono extra</h2>
+      <p class="t-body mt6">Raspa para revelar tus premios</p>
+    </div>
+    <div class="sc-row" id="sc-row"></div>
+  </section>
+
+  <div class="rule">
+    <div class="rl"></div><span class="ri">🎉 ☠ 🎉</span>
+    <div class="rl"></div>
+  </div>
+
+  <!-- §8 FINAL -->
+  <section class="section gate" id="s8">
+    <div class="veil">
+      <div class="vt"></div>
+      <div class="vb"></div>
+    </div>
+    <canvas id="conf-cv"></canvas>
+    <div class="final-w">
+      <div class="final-badge">🏴‍☠️</div>
+      <p class="final-eyebrow">— Grand Line —</p>
+      <h1 class="final-title">Feliz<br>Cumpleaños</h1>
+      <p class="final-sub">para</p>
+      <p class="final-name" id="fn">Richard</p>
+      <div class="final-rule"></div>
+      <p class="final-msg">Que este nuevo año sea tan épico como el viaje al final del Grand Line.<br>Que siempre tengas
+        Nakamas a tu lado, <em>tesoros que descubrir</em><br>y la valentía de un pirata para perseguir tu sueño más
+        grande.<br><br><span class="gold">Este mundo es tuyo, Richard.</span></p>
+      <p class="final-sig">Con todo mi cariño — Tu Nakama ✦</p>
+    </div>
+  </section>
+
+  <!-- §9 PLAYLIST — aparece al llegar a §8 (JS la desbloquea) -->
+  <div class="rule" id="rule-s9">
+    <div class="rl"></div><span class="ri">🎵 ☠ 🎵</span>
+    <div class="rl"></div>
+  </div>
+
+  <section class="section gate" id="s9">
+    <div class="veil">
+      <div class="vt"></div>
+      <div class="vb"></div>
+    </div>
+    <div class="s9-inner">
+      <div class="s9-alert" id="s9-alert">
+        <div class="s9-skull">☠</div>
+        <p class="s9-stop">Alto, Pirata.</p>
+        <p class="s9-sub">Todavía no has terminado.<br>Esto también es para ti.</p>
+        <div class="s9-bar"></div>
+      </div>
+      <div class="s9-playlist" id="s9-playlist">
+        <p class="eyebrow">— El soundtrack del viaje —</p>
+        <h2 class="t-display">Tu playlist <span class="gold it">pirata</span></h2>
+        <p class="t-body mt6">174 canciones del Grand Line — official One Piece playlist</p>
+        <div class="s9-embed-wrap">
+          <iframe id="spotify-embed" title="One Piece Official Playlist — Spotify"
+            src="https://open.spotify.com/embed/playlist/37i9dQZF1DX6OLd5MrIVlk?utm_source=generator&theme=0"
+            width="100%" height="480" frameborder="0" allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="onepiece.js"></script>
+</body>
+
+</html>
